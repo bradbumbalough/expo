@@ -3,7 +3,7 @@ import invariant from 'invariant';
 import { AsyncStorage, Platform } from 'react-native';
 import { UnavailabilityError } from '@unimodules/core';
 import ExponentNotifications from './ExponentNotifications';
-import { Mailbox, } from './Mailbox';
+import { Mailbox } from './Mailbox';
 const _mailbox = new Mailbox();
 function _processNotification(notification) {
     notification = Object.assign({}, notification);
